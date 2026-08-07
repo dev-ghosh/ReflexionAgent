@@ -1,0 +1,8 @@
+streamlit
+langgraph
+langchain-core
+langchain-groq
+langchain-tavily
+python-dotenv
+pydantic
+faster-whisper
