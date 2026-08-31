@@ -18,7 +18,7 @@ from schemas import AnswerQuestion, ReviseAnswer
 
 llm = ChatGroq(
     temperature=0,
-    model="llama-3.3-70b-versatile"
+    model="openai/gpt-oss-20b"
 )
 parser = JsonOutputToolsParser(return_id=True)
 parser_pydantic = PydanticToolsParser(tools=[AnswerQuestion])
